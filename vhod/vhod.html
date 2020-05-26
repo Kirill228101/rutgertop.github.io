@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/register/stule.css">
+</head>
+<body>
+   <div class="contauner mt-4">
+        <h1>Войти</h1>
+     <form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="/images/mg2.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>имя</b></label>
+    <input type="text" placeholder="введите имя" name="uname" required>
+
+    <label for="psw"><b>пороль</b></label>
+    <input type="password" placeholder="Введите пороль" name="psw" required>
+
+    <button type="submit">логин</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> я согласен с условиями регестрации
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+      <a href="/index.html"><button type="button" class="cancelbtn">отменить</button></a>
+    <span class="psw">забыли <a href="#">пороль?</a></span>
+  </div>
+</form>
+
+   </div>
+</body>
+</html>
